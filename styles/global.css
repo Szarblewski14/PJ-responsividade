@@ -5,5 +5,15 @@
 }
 
 :root {
-    
+    --primary-color: #920ef7;
+    --bg-color: #171717;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1, h2, p {
+    color: var(--primary-color);
+    font-family: "Noto Sans", sans-serif;
 }
