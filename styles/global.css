@@ -6,7 +6,8 @@
 
 :root {
     --primary-color: #920ef7;
-    --bg-color: #171717;
+    --bg-color: #201b2c;
+    --color-login: #9487b3;
 }
 
 body {
