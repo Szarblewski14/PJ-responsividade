@@ -15,12 +15,9 @@
         font-weight: 800;
         font-size: 3vw;
         color: var(--primary-color);
-
-        & span {
-            color: wheat;
-        }
     }
 }
+
 
 .right-login{
     width: 40vw;
@@ -89,6 +86,26 @@ button {
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #2a0d66;
 
+}
+
+@media (max-width: 700px) {
+
+    #container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        margin-bottom: 2rem;
+    }
+
+    .text > h1 {
+        display: none;
+    }
+
+    .right-login {
+        width: 100vw;
+    }
 }
 
 
